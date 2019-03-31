@@ -1,3 +1,0 @@
-USE SmartHome;
-
-CREATE TABLE ();
