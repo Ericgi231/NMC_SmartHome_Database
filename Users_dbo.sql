@@ -1,13 +1,12 @@
 USE SmartHome;
 
 CREATE TABLE Users (
-	id INT NOT NULL AUTO_INCREMENT, 
-	userName VARCHAR(50),
-	password VARCHAR(255),
-	firstName VARCHAR(50),
-	lastName VARCHAR(50),
-	email VARCHAR(100),
-	wifiName VARCHAR(50),
-	wifiPassword VARCHAR(255),
+	Id INT NOT NULL AUTO_INCREMENT, 
+	UserName VARCHAR(50),
+	Password VARCHAR(255),
+	FirstName VARCHAR(50),
+	LastName VARCHAR(50),
+	Email VARCHAR(100),
+	TempDisplay VARCHAR(1) DEFAULT 'c',
 	PRIMARY KEY (id)
 	);

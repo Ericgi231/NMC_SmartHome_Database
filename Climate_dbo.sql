@@ -1,3 +1,10 @@
 USE SmartHome;
 
-CREATE TABLE ();
+CREATE TABLE Climate(
+	Id NOT NULL AUTO_INCREMENT,
+	DeviceId INT(11),
+	Humidity DOUBLE,
+	Temperature DOUBLE,
+	RecordTime TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	PRIMARY KEY(Id)
+	);
