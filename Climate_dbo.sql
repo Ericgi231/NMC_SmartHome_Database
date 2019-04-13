@@ -2,7 +2,8 @@ USE SmartHome
 
 CREATE TABLE Climate(
 	Id INT NOT NULL AUTO_INCREMENT,
-	DeviceId INT,
+	UserId INT,
+	UnitId INT,
 	Humidity DOUBLE,
 	Temperature DOUBLE,
 	RecordTime TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
